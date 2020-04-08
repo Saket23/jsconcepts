@@ -6,6 +6,7 @@ Foobar is a Python library for dealing with word pluralization.
 
 ```
 Session storage data are not persistent when tabs are closed
+In session storage can store 5 MB of data and data in session storage is not used to make an api call.
 ```
 
 ## Local Storage
@@ -13,6 +14,16 @@ Session storage data are not persistent when tabs are closed
 ```
 In local storage even if you shut down the system and comeback and visit the same web browser the data will be persistent in local storage.  
 It has highest memory capacity in comparison to session storage and cookies
+```
+
+```
+local storage and session storage are stored in the window object of the browser.
+They store data base on same origin policy.
+
+same origin policy contains three things
+1. Protocol : (HTTP/HTTPS)
+2. Host : (Flipkart.com )
+3. Port : 8080/8081
 ```
 
 # Cookies
