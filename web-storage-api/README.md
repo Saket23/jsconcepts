@@ -1,5 +1,6 @@
 # WebStorage API
 
+
 ## Session Storage
 
 ```
